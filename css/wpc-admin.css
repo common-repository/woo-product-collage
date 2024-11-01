@@ -1,0 +1,364 @@
+p.title_manage {margin:0px;}
+.wpc_success{
+	width:78%;
+	padding:10px;
+	margin:10px 10px 10px 0;
+	border:1px solid #E6DB55;
+	background-color:#FFFBCC;
+	color:#2680AA;
+	
+}
+.wpc_error{
+	width:78%;
+	padding:10px;
+	margin:10px 10px 10px 0;
+	border:1px solid #CC0000;
+	background-color:#FFEBE8;
+	/*color:#2680AA;*/
+	
+}
+div.sucess_msg{BORDER-RIGHT:#ffd700 0.1em solid;PADDING-RIGHT:10px;BACKGROUND-POSITION:10px 50%;BORDER-TOP:#ffd700 0.1em solid;PADDING-LEFT:36px;BACKGROUND-IMAGE:url(../images/s_notice.png);PADDING-BOTTOM:10px;MARGIN:0.5em 0px;BORDER-LEFT:#ffd700 0.1em solid;PADDING-TOP:10px;BORDER-BOTTOM:#ffd700 0.1em solid;BACKGROUND-REPEAT:no-repeat;border-color:#446423;background-color:#eff5ea;color:#3d6611;font-weight:bold;}
+div.error_msg{BORDER-RIGHT:#ff0000 0.1em solid;PADDING-RIGHT:10px;BACKGROUND-POSITION:10px 50%;BORDER-TOP:#ff0000 0.1em solid;PADDING-LEFT:36px;BACKGROUND-IMAGE:url(../images/s_error.png);PADDING-BOTTOM:10px;MARGIN:0.5em 5px 0.5em 0;BORDER-LEFT:#ff0000 0.1em solid;PADDING-TOP:10px;BORDER-BOTTOM:#ff0000 0.1em solid;BACKGROUND-REPEAT:no-repeat;border-color:#f16048;background-color:#faebe7;color:#df280a;font-weight:bold;}
+
+.suggestion{font-size:12px;float:left;}
+.cjswrap{
+	font-size:14px;
+}
+.cjswrap .postbox{
+	width:100%;
+}
+.cjscontainer{
+	margin:20px 0;
+}
+.cjs_submit_btn{
+   color: #464646;
+    font-size: 16px;
+    padding-bottom: 5px;
+    padding-left: 12px;
+    padding-right: 12px;
+    padding-top: 5px;
+	background:#e9e9e9;
+	border-radius:5px;
+}
+.cjswrap .postbox  h3 {
+    font-size: 15px;
+    font-weight: normal;
+    line-height: 1;
+	margin:0px;
+	padding:10px;
+  
+	color:#2680AA;
+}
+.viewdata table{
+	width:100%;
+	padding:5px 0 0 25px;
+
+}
+.viewdata table td{
+	padding:8px 5px;
+	line-height:18px;
+}
+#formID table td{
+	padding:5px 5px 5px 5px;
+}
+#formID table td input,#formID table td select,#formID table td textarea{
+	line-height:20px;
+	padding:3px;
+	width:220px;
+
+}
+#formID table td input[type="radio"]{
+	width:20px;
+	height:14px;
+}
+#formID table td input[type="checkbox"]{
+	width:auto !important;
+	height:16px;
+}
+#formID table td textarea{
+height:100px;
+width:250px;
+}
+.cjstable th {
+    color: #21759B !important;
+}
+.partner-number_of_clicks {
+  text-align: center !important;
+  font-weight:bold;
+}
+.cjswrap ul.page-numbers{float:right;}
+.cjswrap ul.page-numbers li{float:left;}
+.cjswrap .page-numbers a {
+	padding: 2px 5px 2px 5px; 
+	margin: 2px;
+	border: 1px solid #21759B;	 
+	text-decoration: none;
+	color: #21759B;
+}
+.cjswrap  .page-numbers a:hover, div.page-numbers a:active {
+	border: 1px solid #21759B;
+	background-color:#21759B;
+	color: #fff;
+}
+.cjswrap  .page-numbers span.current {
+	padding: 2px 5px 2px 5px;
+	margin: 2px; 
+	border: 1px solid #21759B;
+	font-weight: bold;
+	background-color: #21759B;
+	color: #FFF;
+}
+.cjswrap .page-numbers span.disabled {
+	padding: 2px 5px 2px 5px;
+	margin: 2px;
+	border: 1px solid #EEE;
+	color: #CCCCCC; 
+}
+.alert.hurrey a{color:#fff;}
+.upgrade_to_plus {
+  text-align: center;
+}
+
+.upgrade_to_gold {
+  text-align: center;
+}
+
+.book-now button, .book-now span.wpct-button-style, .wpct-button button, .wpct-button span.wpct-button-style {
+  -moz-user-select: none;
+  background-image: linear-gradient(#28a0e5, #015e94);
+  border: 0 none;
+  border-radius: 5px;
+  box-shadow: 0 1px 0 rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+  display: inline-block;
+  overflow: hidden;
+  padding: 1px;
+  text-decoration: none;
+  visibility: visible !important;
+}
+.book-now button span, .book-now span.wpct-button-style span, .wpct-button button span, .wpct-button span.wpct-button-style span {
+  background: #1275ff linear-gradient(#7dc5ee, #008cdd 85%, #30a2e4) repeat scroll 0 0;
+  border-radius: 4px;
+  box-shadow: 0 1px 0 rgba(255, 255, 255, 0.25) inset;
+  color: #fff;
+  display: block;
+  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-size: 14px;
+  font-weight: bold;
+  height: 30px;
+  line-height: 30px;
+  padding: 0 12px;
+  position: relative;
+  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+}
+.book-now button span a, .book-now span.wpct-button-style span a, .wpct-button button span a, .wpct-button span.wpct-button-style span a {
+  color: #fff;
+  text-decoration:none;
+}
+iframe#downaloadRegistrationReport {
+  display: none;
+  height: 0;
+  width: 0;
+}
+
+.price_table_structure{
+    background-color: whitesmoke;
+    padding: 10px;
+    width: 100%;
+}
+
+.single_price_row{
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+.single_price_row span{
+    font-weight: bold;
+}
+
+.highlightsection_row{
+    background-color: whitesmoke;
+}
+
+
+#dataform #search_name_exist, #search_name{padding:5px; float:left; margin-right:5px;}
+
+#doaction, #doaction2, #post-query-submit{margin: 0px 8px 0 0;}
+
+#search_name_exist{
+    width: 250px;
+}
+
+#search_name{
+    width: 250px;
+}
+.first_head{
+    text-align: left;
+    padding-left: 40px;
+}
+
+.fsga-meta {  }
+.fsga-meta ul li { height: 20px; clear:both; margin: 0 0 15px 0;}
+.fsga-meta ul li label { width: 100px; display:block; float:left; padding-top:4px; }
+.fsga-meta ul li input { width:125px; display:block; float:left; }
+.fsga-meta ul li em { width: 200px; display:block; float:left; color:gray; }
+.fsga-meta .fsga_textarea{
+    margin-bottom: 100px;
+}
+
+.price_text{
+    width: 70px;
+}
+.wpc_submit_btn{
+    width: 200px;
+    text-align: center;
+}
+
+.showBreakSection{
+    display: block;    
+    
+}
+
+.class_disable{
+    display: none;
+}
+
+.hideClass{
+    display: none;
+}
+
+#step_1_process_id,#step_2_process_id{
+    float: left;
+}
+
+.settings_page{
+    width: 100%;
+    min-height: 40px;
+}
+
+.showFloatRight{
+    float: right;
+}
+
+.sub_section_head{
+    font-size: 20px;    
+    font-weight: 400;
+    line-height: 29px;
+    margin: 0;
+    padding: 9px 0 4px;
+}
+
+.tbl_head{
+    width: 40%;
+    text-align: left;
+    font-weight: bold;
+}
+
+.tbl_data{
+    width: 60%;
+    text-align: left;
+}
+
+.second_title{
+    margin-top: 20px;
+}
+
+input[type=checkbox]{
+    width: 14px !important;
+    height: 18px !important;
+}
+
+
+ /* Style the list */
+ul.tab {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    border: 1px solid #ccc;
+    background-color: #f1f1f1;
+}
+
+/* Float the list items side by side */
+ul.tab li {float: left;}
+
+/* Style the links inside the list items */
+ul.tab li a {
+    display: inline-block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    transition: 0.3s;
+    font-size: 17px;
+}
+
+/* Change background color of links on hover */
+ul.tab li a:hover {background-color: #ddd;}
+
+/* Create an active/current tablink class */
+ul.tab li a:focus, .active {background-color: #ccc;}
+
+/* Style the tab content */
+.tabcontent {
+    display: none;
+    padding: 6px 12px;
+    border: 1px solid #ccc;
+    border-top: none;
+}
+.activeContent{
+    display: block;
+}
+
+.clsGreen{
+    color: green;
+}
+
+.clsRed{
+    color: red;
+}
+
+.client-order_id{
+    width: 5%;
+}
+
+.multiple_dropbox{
+    min-height: 150px;    
+}
+
+.edit_breakout{
+    text-align: right;
+    margin-bottom: 10px;
+}
+
+.admin_table_info{
+    width: 100%;
+    float: left;
+    clear: both;
+    z-index: 100;
+}
+
+.wp_layout_collage{
+    float: left;
+    width: 30%;
+    margin-bottom: 20px;
+}
+
+.wp_layout_collage span{
+    text-align: center;
+    width: 100%;
+    float: left;
+    margin-top: 5px;
+}
+
+#my_collage_id_textarea{
+    width: 100%;
+    min-height: 200px;
+}
+
+.show_add_remove_cls{
+    width: 100%;
+    text-align: center;
+    float: left;
+}
+
